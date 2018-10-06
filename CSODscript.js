@@ -3,7 +3,7 @@
 	
 	// Perform ajax search to fetch feed images
 	function _fetchData () {
-		var accessToken = "1398546599.2cb738a.eb91fe282d564ed097ccac460ab35d29";
+		var accessToken = "";
 
 		 return $.ajax({
 			url: "https://api.instagram.com/v1/users/self/media/recent/?access_token=" + accessToken,
